@@ -1,0 +1,16 @@
+
+.navbar {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+  
+    a {
+      color: white;
+      font-size: 2rem;
+      padding: 1rem;
+      text-decoration: none;
+      &:hover {
+        background-color: black;
+      }
+    }
+  }
